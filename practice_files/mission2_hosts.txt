@@ -1,0 +1,18 @@
+# d3ep0ps practice file
+#
+# This is a sample hosts file for Mission 2.
+# Clean this file up.
+
+127.0.0.1 localhost
+127.0.1.1 my-hostname
+
+192.168.1.50 old-server.local
+192.168.1.100 fileserver.local
+192.168.1.101 monitoring.local
+
+10.0.0.10 test-server
+
+# The following lines are desirable for IPv6 capable hosts
+::1     ip6-localhost ip6-loopback
+fe00::0 ip6-localnet
+ff00::0 ip6-mcastprefix
