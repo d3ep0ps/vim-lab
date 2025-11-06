@@ -2,7 +2,7 @@
 
 Welcome to the hands-on lab for the d3ep0ps blog series. This lab is designed to give you the essential, "no-panic" skills you need to survive and be productive in `vi` or `vim`.
 
-As we discussed in [Mastering Text Editing on Unix](https://medium.com/@d3ep0ps/mastering-text-editing-on-unix-from-vi-to-vim-and-beyond-xxxxxxxxx), knowing `vi` isn't about nostalgia; it's about survival. It's the one editor that's guaranteed to be on *any* Unix-like system you SSH into.
+As we discussed in [Mastering Text Editing on Unix](https://medium.com/@D3ep0ps/fcffc60a094b), knowing `vi` isn't about nostalgia; it's about survival. It's the one editor that's guaranteed to be on *any* Unix-like system you SSH into.
 
 This lab will build your muscle memory. No mouse, no GUI. Just you and the terminal.
 
