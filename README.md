@@ -94,20 +94,3 @@ As we discussed in the article, the command `:%s/old/new/g` is actually `ex`, th
 # Note: On BSD/macOS, you might need: sed -i '' 's/new-app.d3ep0ps.com/old-app.com/g'
 sed -i 's/new-app.d3ep0ps.com/old-app.com/g' practice_files/mission3_nginx_config.txt
 ```
-
-### 🛠️ Manual Verification & Reset
-
-If you prefer not to use `./lab.sh`, you can manually verify your work:
-
-```bash
-./check.sh 1  # Check Mission 1
-./check.sh 2  # Check Mission 2
-./check.sh 3  # Check Mission 3
-```
-
-And if you mess up and need to start over:
-
-```bash
-./reset.sh 1  # Reset Mission 1
-./reset.sh    # Reset ALL files
-```
