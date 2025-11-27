@@ -1,0 +1,16 @@
+# d3ep0ps practice file
+#
+# This is a sample sshd_config file for Mission 1.
+
+HostKey /etc/ssh/ssh_host_rsa_key
+HostKey /etc/ssh/ssh_host_ecdsa_key
+HostKey /etc/ssh/ssh_host_ed25519_key
+
+#Port 22
+#ListenAddress 0.0.0.0
+#ListenAddress ::
+
+PermitRootLogin prohibit-password
+ChallengeResponseAuthentication no
+PasswordAuthentication no
+PermitEmptyPasswords no
