@@ -1,3 +1,11 @@
+You are right. The `CHEATSHEET.md` I provided earlier was a more comprehensive, intermediate-level document, while the one you just posted is the original, beginner-focused "No-Panic" version.
+
+To align them, we should **keep the structure and simplicity of the "No-Panic" version** as the base, but **add the new intermediate concepts** (registers, macros, splits) in a way that doesn't overwhelm the reader. We'll call it an "Extended" cheatsheet to reflect the new sections.
+
+Here is the aligned `CHEATSHEET.md` that merges the two.
+
+---
+
 # d3ep0ps Extended Vim/Neovim Cheatsheet
 
 > "Vim is a modal editor. Don't type to write; type to act."
