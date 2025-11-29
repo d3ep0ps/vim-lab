@@ -1,0 +1,42 @@
+" ====================================================================
+# d3ep0ps Vim Starter Config
+#
+# Place this file at ~/.vimrc to apply these settings.
+" ====================================================================
+
+" --- The Basics ---
+set nocompatible            " Disable VI legacy compatibility mode
+filetype plugin indent on   " Enable filetype detection for syntax/indent
+
+" --- UI & Visuals ---
+syntax on                   " Enable syntax highlighting
+set number                  " Show line numbers on the left
+" set relativenumber        " Uncomment for relative line numbers (great for jumps)
+set cursorline              " Highlight the current line
+set scrolloff=8             " Keep 8 lines of context above/below cursor when scrolling
+
+" --- Indentation & Tabs (The "Spaces > Tabs" standard) ---
+set expandtab               " Use spaces instead of tabs
+set shiftwidth=4            " Indentation amount for < and > commands
+set tabstop=4               " How many columns a tab counts for
+set softtabstop=4           " How many columns a tab counts for in insert mode
+set smartindent             " Intelligent auto-indenting for code
+
+" --- Search ---
+set incsearch               " Search as you type
+set hlsearch                " Highlight search matches
+" Press <Space> to clear search highlighting
+nnoremap <silent> <Space> :nohlsearch<Bar>:echo<CR>
+set ignorecase              " Ignore case when searching...
+set smartcase               "...unless uppercase letters are used
+
+" --- Behavior ---
+set backspace=indent,eol,start " Make backspace work normally over line breaks
+set hidden                  " Allow switching buffers without saving
+set history=1000            " Remember more command history
+set nobackup                " Don't create annoying ~ backup files
+set noswapfile              " Don't create annoying .swp files
+
+" --- Status Line ---
+set laststatus=2            " Always show status line
+set statusline=%F%m%r%h%w\ [%L\ lines]\ [%{&ff}]\ %y\ [%p%%]\ [%c:%l]
